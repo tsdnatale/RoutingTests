@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { Parent1Module } from './feature/parent1/parent1.module';
 import { Parent2Module } from './feature/parent2/parent2.module';
 import { Parent3Module } from './feature/parent3/parent3.module';
+import { Parent4Module } from './feature/parent4/parent4.module';
 
 const routes: Routes = [
 ];
@@ -12,7 +13,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     Parent1Module,
     Parent2Module,
-    Parent3Module
+    Parent3Module,
+    Parent4Module
   ],
   exports: [RouterModule]
 })
